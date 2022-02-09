@@ -16,5 +16,16 @@ namespace P01
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int cislo = Convert.ToInt32(textBox1.Text);
+            int faktorial = 1;
+            for (int i = 2; i <= cislo; i++)
+            {
+                faktorial *= i;
+            }
+            label1.Text = string.Format("Faktrial z cisla {0} je {1}", cislo, faktorial);
+        }
     }
 }
