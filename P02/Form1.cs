@@ -22,6 +22,7 @@ namespace P02
             int a = Convert.ToInt32(textBox1.Text);
             int apomocne = Convert.ToInt32(textBox1.Text);
             int n = Convert.ToInt32(textBox2.Text);
+            int xt = Convert.ToInt32(textBox2.Text);
             for (int i = 1; i < n; i++)
             {
                 apomocne *= a;
